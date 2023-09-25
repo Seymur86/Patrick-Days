@@ -1,0 +1,480 @@
+@import url('./reset.css');
+@import url('./font.css');
+
+body {
+    background-color: rgb(8, 91, 8);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: auto;
+}
+
+.first-section img {
+    width: 200px;
+    height: 35px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: url('../img/patrick.jpg') no-repeat center;
+    width: 800px;
+}
+
+.first-section h2 {
+    font-size: 20px;
+    line-height: 1.2 !important;
+    word-break: break-word;
+    text-align: center;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    letter-spacing: 6px;
+    overflow-wrap: break-word;
+    margin-top: 20px;
+}
+
+.first-section strong {
+    line-height: 1.4 !important;
+    font-weight: bold;
+    font-size: 88px;
+    word-break: break-word;
+    text-align: center;
+    font-family: 'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+}
+
+.first-section p {
+    font-size: 24px;
+    line-height: 1.2 !important;
+    word-break: break-word;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    overflow-wrap: break-word;
+}
+
+.first-section button,
+.second-section button,
+.third-section button {
+    width: auto;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgb(255, 139, 55);
+    border: 0px solid rgb(255, 139, 55);
+    margin-bottom: 20px;
+}
+
+.second-section button {
+    margin-bottom: 40px;
+}
+
+.third-section button {
+    width: 300px;
+}
+
+.first-section a,
+.second-section a,
+.third-section a {
+    color: rgb(250, 250, 250);
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+    padding: 5px 50px;
+    letter-spacing: normal;
+}
+
+.second-section,
+.third-section,
+.fourth-section {
+    background-color: rgb(202, 185, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    gap: 30px;
+}
+
+.third-section,
+.fourth-section {
+    background-color: white;
+}
+
+.second-section img,
+.third-section img,
+.fourth-section img {
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.second-section h2,
+.third-section h2,
+.fourth-section h2 {
+    font-size: 18px;
+    line-height: 1.2 !important;
+    word-break: break-word;
+    font-family: inherit;
+    color: rgb(83, 143, 70);
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+}
+
+.second-section span,
+.third-section span,
+.fourth-section span {
+    line-height: 1.2 !important;
+    font-weight: bold;
+    font-size: 38px;
+    word-break: break-word;
+    font-family: inherit;
+    color: rgb(27, 103, 67);
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+}
+
+.second-section .line,
+.third-section .line,
+.fourth-section .line {
+    width: 100px;
+    height: 3px;
+    background-color: rgb(255, 139, 55);
+}
+
+.second-section p,
+.fourth-section p {
+    width: 400px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5 !important;
+    word-break: break-word;
+    font-family: inherit;
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+}
+
+.fourth-section p {
+    width: 700px;
+    font-size: 18px;
+}
+
+.first-boxes,
+.second-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.box1 h2,
+.box2 h2,
+.box3 h2,
+.box4 h2 {
+    line-height: 1.2 !important;
+    font-weight: bold;
+    font-size: 28px;
+    word-break: break-word;
+    font-family: inherit;
+    color: rgb(27, 103, 67);
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.box1 .icon,
+.box2 .icon,
+.box3 .icon,
+.box4 .icon {
+    display: flex;
+}
+
+.box1 .line,
+.box2 .line,
+.box3 .line,
+.box4 .line {
+    width: 250px;
+    height: 1px;
+    background-color: rgb(255, 139, 55);
+}
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
+    width: 300px;
+    text-align: center;
+    line-height: 1.5 !important;
+    word-break: break-word;
+    font-family: inherit;
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+}
+
+.box1 button,
+.box2 button,
+.box3 button,
+.box4 button {
+    width: 170px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: white;
+    border: 2px solid rgb(255, 139, 55);
+    margin-bottom: 15px;
+}
+
+.box1 button a,
+.box2 button a,
+.box3 button a,
+.box4 button a {
+    color: rgb(255, 139, 55);
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+    padding: 5px 20px;
+    letter-spacing: normal;
+}
+
+.box1 h3,
+.box2 h3,
+.box3 h3,
+.box4 h3 {
+    font-size: 18px;
+    line-height: 1.5 !important;
+    word-break: break-word;
+    font-family: inherit;
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    color: rgb(85, 85, 85);
+}
+
+.box1 span,
+.box2 span,
+.box3 span,
+.box4 span {
+    font-size: 14px;
+    word-break: break-word;
+    text-align: left;
+    line-height: 1.5 !important;
+    min-width: 1px;
+    font-family: inherit;
+    color: rgb(85, 85, 85);
+}
+
+.box1 span b,
+.box2 span b,
+.box3 span b,
+.box4 span b {
+    color: #ff8b37;
+    font-size: 24px;
+    line-height: 1.5 !important;
+    word-break: break-word;
+    text-align: left;
+    font-family: inherit;
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+}
+
+.third-section .decor {
+    width: 800px;
+    height: 350px;
+}
+
+.first-line-box,
+.second-line-box {
+    display: flex;
+}
+
+.plane,
+.parfum,
+.population,
+.document,
+.spoon,
+.passport {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+}
+
+.plane img,
+.parfum img,
+.population img,
+.document img,
+.spoon img,
+.passport img {
+    width: 100px;
+    height: 100px;
+}
+
+.plane h2,
+.plane p,
+.parfum h2,
+.parfum p,
+.population h2,
+.population p,
+.document h2,
+.document p,
+.spoon h2,
+.spoon p,
+.passport h2,
+.passport p {
+    padding-top: 10px;
+    line-height: 1.5 !important;
+    font-weight: bold;
+    font-size: 16px;
+    word-break: break-word;
+    text-align: left;
+    font-family: inherit;
+    color: rgb(85, 85, 85);
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+}
+
+.plane p,
+.parfum p,
+.population p,
+.document p,
+.spoon p,
+.passport p {
+    font-size: 14px;
+    width: 200px;
+}
+
+.plane a,
+.parfum a,
+.population a,
+.document a,
+.spoon a,
+.passport a {
+    font-size: 16px;
+    text-decoration: underline;
+    line-height: 1.5 !important;
+    color: #ff8b37;
+    cursor: text;
+    word-break: break-word;
+    text-align: left;
+    font-family: inherit;
+    margin-bottom: 20px;
+}
+
+.address {
+    width: 800px;
+    height: auto;
+    background-color: #0d2b0f;
+    display: flex;
+    flex-direction: row;
+}
+
+.address img {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.icon {
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+
+.text,
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text h2,
+.text p,
+.text1 h2 {
+    font-size: 14px;
+    line-height: 1.2 !important;
+    font-weight: bold;
+    word-break: break-word;
+    font-family: inherit;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.text1 h2 {
+    width: 220px;
+}
+
+
+.text p {
+    width: 220px;
+    font-size: 12px;
+}
+
+.text1 .spans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 1.2 !important;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 800px;
+    height: 160px;
+    background-color: rgb(8, 91, 8);
+}
+
+footer span {
+    color: rgb(255, 139, 55);
+    letter-spacing: normal;
+    font-family: inherit;
+    font-size: 16px;
+    margin-top: 20px;
+}
